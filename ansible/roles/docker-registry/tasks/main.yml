@@ -1,0 +1,10 @@
+- name: log into docker hub registy
+  docker_login:
+    username: elmoatazbelleh
+    password: Elmoatazbelleh123...
+- name: Tag and push to docker hub
+  docker_image:
+    name: cd
+    repository: elmoatazbelleh/cd
+    push: yes
+    source: local

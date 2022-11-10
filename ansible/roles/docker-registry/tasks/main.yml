@@ -4,7 +4,7 @@
     password: Elmoatazbelleh123...
 - name: Tag and push to docker hub
   docker_image:
-    name: cd
+    name: devops
     repository: elmoatazbelleh/cd
     push: yes
     source: local
